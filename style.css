@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.item2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+img {
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
