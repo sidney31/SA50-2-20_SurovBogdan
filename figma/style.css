@@ -1,0 +1,146 @@
+* {
+
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+} 
+.all {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.container1 {
+    margin-top: 20px;
+    flex-direction: row;
+}
+.container3 {
+    margin-top: 20px;
+    flex-direction: row;
+}
+.container2 {
+    margin-top: 20px;
+    flex-direction: row;
+}
+.gray1 {
+    width: 40px;
+    height: 40px;
+
+    background: #333333;
+    border-radius: 3px;
+    
+}
+.gray2 {
+    width: 40px;
+    height: 40px;
+
+    background: #4F4F4F;
+    border-radius: 3px;
+}
+.gray3 {
+    width: 40px;
+    height: 40px;
+
+    background: #828282;
+    border-radius: 3px;
+}
+.gray4 {
+    width: 40px;
+    height: 40px;
+
+    background: #BDBDBD;
+    border-radius: 3px;
+}
+.gray5 {
+    width: 40px;
+    height: 40px;
+
+    background: #E0E0E0;
+    border-radius: 3px;
+}
+.gray6 {
+    width: 40px;
+    height: 40px;
+
+    background: #F2F2F2;
+    border-radius: 3px;
+}
+
+.red{
+    width: 40px;
+    height: 40px;
+
+    background: #EB5757;
+    border-radius: 3px;
+}
+.orange{
+    width: 40px;
+    height: 40px;
+
+    background: #F2994A;
+    border-radius: 3px;
+}
+.yellow{
+    width: 40px;
+    height: 40px;
+
+    background: #F2C94C;
+    border-radius: 3px;
+}
+.green1{
+    width: 40px;
+    height: 40px;
+
+    background: #219653;
+    border-radius: 3px;
+}
+.green2{
+    width: 40px;
+    height: 40px;
+
+    background: #27AE60;
+    border-radius: 3px;
+}
+.green3{
+    width: 40px;
+    height: 40px;
+
+    background: #6FCF97;
+    border-radius: 3px;
+}
+.blue{
+    width: 40px;
+    height: 40px;
+
+    background: #2F80ED;
+    border-radius: 3px;
+}
+.blue2{
+    width: 40px;
+    height: 40px;
+
+    background: #2D9CDB;
+    border-radius: 3px;
+}
+.blue3{
+    width: 40px;
+    height: 40px;
+
+    background: #56CCF2;
+    border-radius: 3px;
+}
+.purple{
+    width: 40px;
+    height: 40px;
+
+    background: #9B51E0;
+    border-radius: 3px;
+}
+.pink{
+    width: 40px;
+    height: 40px;
+
+    background: #9B51E0;
+    border-radius: 3px;
+}
