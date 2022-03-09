@@ -62,3 +62,35 @@
     top: -10px; left: 180px;
     background-color: green;
 }
+
+.third {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    top: 100px;
+    border-style: dotted
+}
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80px; left: 80px;
+    background-color: red;
+}
+
+.box8 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -60px; left: 130px;
+    background-color: blue;
+}
+
+.box9 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 90px; left: 180px;
+    background-color: green;
+}
