@@ -31,3 +31,34 @@
     border-color: green;
 }
 
+.second {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    border-style: dotted
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80px; left: 80px;
+    background-color: red;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 35px; left: 130px;
+    background-color: blue;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -10px; left: 180px;
+    background-color: green;
+}
