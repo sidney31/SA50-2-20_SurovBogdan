@@ -94,3 +94,35 @@
     top: 90px; left: 180px;
     background-color: green;
 }
+
+.fourth {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    top: 150px;
+    border-style: dotted
+}
+
+.box10 {
+    width: 1000px;
+    height: 700px;
+    position: relative;
+    top: 50px; left: 100px;
+    background-color: lightgreen;
+}
+
+.box11 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -570px; left: 180px;
+    background-color: white;
+}
+
+.box12 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -330px; left: 870px;
+    background-color: white;
+}
