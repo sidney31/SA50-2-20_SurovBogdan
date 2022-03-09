@@ -1,0 +1,128 @@
+.first {
+    width: 100vw;
+    height: 800px;
+    border-style: dotted
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80px; left: 80px;
+    border-style: solid;
+    border-color: red;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 120px; left: 240px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 160px; left: 400px;
+    border-style: solid;
+    border-color: green;
+}
+
+.second {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    border-style: dotted
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80px; left: 80px;
+    background-color: red;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 35px; left: 130px;
+    background-color: blue;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -10px; left: 180px;
+    background-color: green;
+}
+
+.third {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    top: 100px;
+    border-style: dotted
+}
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80px; left: 80px;
+    background-color: red;
+}
+
+.box8 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -60px; left: 130px;
+    background-color: blue;
+}
+
+.box9 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 90px; left: 180px;
+    background-color: green;
+}
+
+.fourth {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    top: 150px;
+    border-style: dotted
+}
+
+.box10 {
+    width: 1000px;
+    height: 700px;
+    position: relative;
+    top: 50px; left: 100px;
+    background-color: lightgreen;
+}
+
+.box11 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -570px; left: 180px;
+    background-color: white;
+}
+
+.box12 {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -330px; left: 870px;
+    background-color: white;
+}
