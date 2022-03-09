@@ -1,0 +1,28 @@
+.fifth {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    top: -7px;
+    border-style: dotted
+}
+.fixblock {
+    width: 100vw;
+    height: 101px;
+    position: fixed;
+    top: 0px;
+    background-color: yellowgreen;
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    text-align: center;
+}
+.newsblock {
+    width: 100vw;
+    height: 705px;
+    position: relative;
+    top: 90px;
+    border-style: solid;
+    border-color: yellowgreen;
+    font-family: 'Times New Roman';
+    font-size: 34px;
+    text-align: center;
+}
