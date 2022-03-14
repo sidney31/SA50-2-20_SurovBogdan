@@ -46,3 +46,70 @@
     color: #FFFFFF;
 
 }
+.about{
+    position: absolute;
+    left: 1397px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.pets{
+    position: absolute;
+    left: 1546px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.help{
+    position: absolute;
+    left: 1639px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.contacs{
+    position: absolute;
+    left: 1780px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.line {
+    position: absolute;
+    left: 1397px;
+    top: 100px;
+
+    width: 114px;
+    height: 3px;
+    border:1px solid;
+    margin:auto;
+    background: #F1CDB3;
+}
