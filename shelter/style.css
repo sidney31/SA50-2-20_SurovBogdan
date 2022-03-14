@@ -1,0 +1,115 @@
+.backgr{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 100vw;
+    background: url(background.jpg), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+.title{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    
+    color: #F1CDB3;
+}
+
+.subtitle{
+    position: absolute;
+    left: 44px;
+    top: 105px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+}
+.about{
+    position: absolute;
+    left: 1397px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.pets{
+    position: absolute;
+    left: 1546px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.help{
+    position: absolute;
+    left: 1639px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.contacs{
+    position: absolute;
+    left: 1780px;
+    top: 76px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    color: #FAFAFA;
+}
+
+.line {
+    position: absolute;
+    left: 1397px;
+    top: 100px;
+
+    width: 114px;
+    height: 3px;
+    border:1px solid;
+    margin:auto;
+    background: #F1CDB3;
+}
