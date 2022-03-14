@@ -7,3 +7,42 @@
     width: 100vw;
     background: url(background.jpg), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 }
+
+.title{
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    
+    color: #F1CDB3;
+}
+
+.subtitle{
+    position: absolute;
+    left: 44px;
+    top: 105px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+
+}
