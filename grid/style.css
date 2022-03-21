@@ -1,0 +1,136 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 280px 200px 420px;
+    grid-template-rows: 300px 220px 300px;
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+    left: 65px;
+    top: 141px;
+    gap: 22px
+}
+.top {
+    display: grid;
+    width: 1440px;
+    height: 105px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+.photo1{
+    background-image: url('./asserts/img/1.jpg');
+    background-size: 100% 100%;
+}
+.photo2{
+    background-image: url('./asserts/img/2.jpg');
+    background-size: 100% 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.photo4{
+    background-image: url('./asserts/img/4.jpg');
+    background-size: 100% 100%;
+    width: 430px;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+}
+
+.photo3{
+    background-image: url('./asserts/img/3.jpg');
+    background-size: 100% 100%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.photo5{
+    background-image: url('./asserts/img/5.jpg');
+    background-size: 100% 100%;
+    width: 430px;
+    height: 300px;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    height: 542px;
+}
+.photo9{
+    background-image: url('./asserts/img/9.jpg');
+    background-size: 100% 100%;
+    width: 200px;
+    grid-column-start: 3;
+}
+.photo6{
+    background-image: url('./asserts/img/6.jpg');
+    background-size: 100% 100%;
+}
+.photo7{
+    background-image: url('./asserts/img/7.jpg');
+    background-size: 100% 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.name{
+    position: absolute;
+    width: 206px;
+    height: 84px;
+    left: 66px;
+    top: 10px;
+    font-family: 'Six Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    color: #000000;
+}
+
+.main{
+    position: absolute;
+    width: 83px;
+    height: 36px;
+    left: 828px;
+    top: 34px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.price{
+    position: absolute;
+    width: 61px;
+    height: 36px;
+    left: 975px;
+    top: 34px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.works{
+    position: absolute;
+    width: 114px;
+    height: 36px;
+    left: 1100px;
+    top: 34px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+.about{
+    position: absolute;
+    width: 97px;
+    height: 36px;
+    left: 1278px;
+    top: 34px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
