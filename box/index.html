@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box" , id='box'></div>
+    <script>
+        left = 0;
+        wtop = 0;
+        box.onclick = function() {
+            setInterval(function() {
+                if (left + 50 == window.innerWidth){
+                    if (wtop + 50 == window.innerHeight) {
+                        if (left == 0) {
+                            alert('yes')
+                        }else if (wtop > 0){
+                            left--
+                            box.style.left = left + 'px';
+                        }
+                        }else {
+                            wtop++
+                            box.style.top = wtop + 'px';
+                        }
+                    }else if (wtop == 0) {
+                        left++
+                        box.style.left = left + 'px';
+                    }else if ((wtop > 0) && (left > 0)){
+                        left--
+                        box.style.left = left + 'px';
+                    }else if ((wtop > 0) && (left == 0)){
+                        wtop--
+                        box.style.top = wtop + 'px';
+                    }
+            }, 1);
+        }
+    </script>
+</body>
+</html>
