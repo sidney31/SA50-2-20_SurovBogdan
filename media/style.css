@@ -1,4 +1,6 @@
-body{ overflow-x:hidden;}
+body{
+    margin: 0;
+}
 .header{
     position: absolute;
     width: 100vw;
@@ -9,26 +11,27 @@ body{ overflow-x:hidden;}
 .name{
     position: absolute;
     top: 27px;
-    left: 16vw;
-    font-family: "Arial";
+    left: 100px;
+    font-family: "sans-serif";
     font-size: 30px;
     color: black;
     cursor: pointer;
 }
 
-
-.main {
-    position: absolute;
-    font-family: "Arial";
+.text{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 70vw;
+    font-family: "sans-serif";
     color: black;
 	cursor: pointer;
-    left: 60vw;
-    top: 34px;  
 	line-height: 1;
 	text-decoration: none;
-
+    margin: 15px;
 }
-.main:after {
+
+.text:after {
 	display: block;
 	position: absolute;
 	left: 0;
@@ -39,88 +42,8 @@ body{ overflow-x:hidden;}
 	transition: width 0.2s linear; /*задаём время анимации*/
 }
 
-.main:hover:after,
-.main:focus:after {
-	width: 100%;
-}
-
-.price{
-    position: absolute;
-    font-family: "Arial";
-    left: 66vw;
-    top: 34px;
-    color: black;
-	cursor: pointer;
-	line-height: 1;
-	text-decoration: none;
-}
-
-.price:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	width: 0;
-	height: 3px;
-	background-color: black;
-	content: "";
-	transition: width 0.2s linear; /*задаём время анимации*/
-}
-
-.price:hover:after,
-.price:focus:after {
-	width: 100%;
-}
-.about{
-    position: absolute;
-    left: 71vw;
-    top: 34px;
-    font-family: "Arial";
-    color: black;
-	cursor: pointer;
-	line-height: 1;
-	text-decoration: none;
-}
-
-.about:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	width: 0;
-	height: 3px;
-	background-color: black;
-	content: "";
-	transition: width 0.2s linear; /*задаём время анимации*/
-}
-
-.about:hover:after,
-.about:focus:after {
-	width: 100%;
-}
-
-.author{
-    position: absolute;
-    left: 78vw;
-    top: 34px;
-    font-family: "Arial";
-    color: black;
-	cursor: pointer;
-	line-height: 1;
-	text-decoration: none;
-}
-
-.author:after {
-	display: block;
-	position: absolute;
-	left: 0;
-	width: 0;
-	height: 3px;
-	background-color: black;
-	content: "";
-	transition: width 0.2s linear; /*задаём время анимации*/
-}
-
-.author:hover:after,
-.author:focus:after {
+.text:hover:after,
+.text:focus:after {
 	width: 100%;
 }
 
@@ -217,3 +140,108 @@ body{ overflow-x:hidden;}
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
     transition: 0.2s;
 }
+
+@media (max-width: 926px) {
+    .cont{
+        position: relative;
+        top: 130px;
+        display: grid;
+        grid-template-rows: 111px 214px 61px 186px 111px;/* строка */
+        grid-template-columns: 186px 186px; /* Столбец */
+        gap: 12px;
+        margin: auto;
+    }
+    .menu{
+        position: relative;
+        top: 20px;
+        left: 15px;
+        width: 40px;
+        height: 5px;
+        background-color: black;
+        margin: 8px 0;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .name{
+        left: 70vw;
+        top: 5vw;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .text{
+        font-size: 0px;
+    }
+    .one{
+        background-color: blue;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    }
+    .one:hover{
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+    .two{
+        background-color: red;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    }
+    .two:hover{
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+    .three{
+        background-color: green;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    }
+    .three:hover{
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+    .four{
+        background-color: blueviolet;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    }
+    .four:hover{
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+    .five{
+        background-color: orange;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    }
+    .five:hover{
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+    .six{
+        background-color: greenyellow;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    }
+    .six:hover{
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+        transition: 0.2s;
+    }
+    .seven{
+        width: 0px;
+        height: 0px;
+    }
+
+    .eight{
+        width: 0px;
+        height: 0px;
+    }
+  }
