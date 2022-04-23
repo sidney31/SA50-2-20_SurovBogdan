@@ -1,0 +1,219 @@
+body{ overflow-x:hidden;}
+.header{
+    position: absolute;
+    width: 100vw;
+    height: 105px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    justify-content: center;
+}
+.name{
+    position: absolute;
+    top: 27px;
+    left: 16vw;
+    font-family: "Arial";
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.main {
+    position: absolute;
+    font-family: "Arial";
+    color: black;
+	cursor: pointer;
+    left: 60vw;
+    top: 34px;  
+	line-height: 1;
+	text-decoration: none;
+
+}
+.main:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background-color: black;
+	content: "";
+	transition: width 0.2s linear; /*задаём время анимации*/
+}
+
+.main:hover:after,
+.main:focus:after {
+	width: 100%;
+}
+
+.price{
+    position: absolute;
+    font-family: "Arial";
+    left: 66vw;
+    top: 34px;
+    color: black;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.price:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background-color: black;
+	content: "";
+	transition: width 0.2s linear; /*задаём время анимации*/
+}
+
+.price:hover:after,
+.price:focus:after {
+	width: 100%;
+}
+.about{
+    position: absolute;
+    left: 71vw;
+    top: 34px;
+    font-family: "Arial";
+    color: black;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.about:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background-color: black;
+	content: "";
+	transition: width 0.2s linear; /*задаём время анимации*/
+}
+
+.about:hover:after,
+.about:focus:after {
+	width: 100%;
+}
+
+.author{
+    position: absolute;
+    left: 78vw;
+    top: 34px;
+    font-family: "Arial";
+    color: black;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: none;
+}
+
+.author:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background-color: black;
+	content: "";
+	transition: width 0.2s linear; /*задаём время анимации*/
+}
+
+.author:hover:after,
+.author:focus:after {
+	width: 100%;
+}
+
+.cont{
+    position: relative;
+    top: 150px;
+    display: grid;
+    grid-template-rows: 248px 120px 75px 103px 231px;/* строка */
+    grid-template-columns: 315px 310px 377px 242px; /* Столбец */
+    width: auto;
+    height: auto;
+    gap: 22px;
+    justify-content: center;
+}
+.one{
+    background-color: blue;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.one:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.two{
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.two:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.three{
+    background-color: green;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.three:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.four{
+    background-color: blueviolet;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.four:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.five{
+    background-color: orange;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.five:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.six{
+    background-color: greenyellow;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.six:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.seven{
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.seven:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
+.eight{
+    background-color: rebeccapurple;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+}
+.eight:hover{
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: 0.2s;
+}
