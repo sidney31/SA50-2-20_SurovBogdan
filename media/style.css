@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    overflow-x: hidden;
+    height: 55vw;
 }
 .header{
     position: absolute;
@@ -140,16 +142,21 @@ body{
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
     transition: 0.2s;
 }
+.images{
+    position: relative;
+    left: -5vw;
+}
 
 @media (max-width: 926px) {
     .cont{
         position: relative;
         top: 130px;
         display: grid;
-        grid-template-rows: 111px 214px 61px 186px 111px;/* строка */
+        grid-template-rows: 111px 214px 61px 186px 111px;/* Cтрока */
         grid-template-columns: 186px 186px; /* Столбец */
         gap: 12px;
-        margin: auto;
+        margin-left: 22px;
+        margin-right: auto;
     }
     .menu{
         position: relative;
@@ -164,8 +171,8 @@ body{
     }
     .name{
         left: 70vw;
-        top: 5vw;
-        font-size: 20px;
+        top: 3vw;
+        font-size: 30px;
         font-weight: 500;
     }
     .text{
@@ -243,5 +250,17 @@ body{
     .eight{
         width: 0px;
         height: 0px;
+    }
+    .images{
+        position: relative;
+        text-align: center;
+        top: 140px
+    }
+    .links{
+        position: relative;
+        margin: 10px;
+        border-radius: px;
+        cursor: pointer;
+        display: inline;
     }
   }
