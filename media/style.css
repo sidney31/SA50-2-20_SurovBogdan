@@ -254,12 +254,15 @@ body{
     .images{
         position: relative;
         text-align: center;
-        top: 140px
+        height: 50px;
+        width: 100vw;
+        top: 140px;
+        left: 0px;
     }
     .links{
         position: relative;
         margin: 10px;
-        border-radius: px;
+        border-radius: 3px;
         cursor: pointer;
         display: inline;
     }
